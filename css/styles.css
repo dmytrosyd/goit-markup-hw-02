@@ -68,21 +68,7 @@ body {
   color: #4d5ae5;
 }
 
-.menu-link-s {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-
-  letter-spacing: 0.02em;
-
-  color: #2e2f42;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.menu-link-p {
+.menu-link {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -94,21 +80,6 @@ body {
 
   flex: none;
   order: 1;
-  flex-grow: 0;
-}
-
-.menu-link-c {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-
-  letter-spacing: 0.02em;
-
-  color: #2e2f42;
-
-  flex: none;
-  order: 2;
   flex-grow: 0;
 }
 
