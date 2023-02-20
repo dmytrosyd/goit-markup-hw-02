@@ -2,6 +2,7 @@
   --accent-color: #4d5ae5;
   --first-color: #2e2f42;
   --second-color: #434455;
+  --hover-color: #404bbf;
 }
 
 /* RESET */
@@ -18,66 +19,52 @@ body {
 }
 /* LOGO */
 .first-logo {
-  color: var(--accent-color);
-
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: var(--accent-color);
+  text-transform: uppercase;
 }
 .second-logo {
   color: var(--first-color);
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
+
 /* //LOGO */
 
 /* HEADER */
 
-.email-addres,
-.phone-number {
-  font-style: normal;
-
+.header-contacts .header-contacts-link {
   font-size: 16px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
+address {
+  font-style: normal;
+}
 /* Hover and focus */
-.phone-number:hover {
-  color: var(--accent-color);
+.header-contacts .header-contacts-link:hover,
+.header-contacts .header-contacts-link:focus {
+  color: var(--hover-color);
 }
-
-.phone-number:focus {
-  color: var(--accent-color);
-}
-
-.email-addres:hover {
-  color: var(--accent-color);
-}
-
+:hover,
 .email-addres:focus {
-  color: var(--accent-color);
+  color: var(--hover-color);
 }
-/* //Hover and focus */
-
-.menu-link:hover {
-  color: var(--accent-color);
-}
-
+.menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: var(--hover-color);
 }
+
+.second-buttons:hover,
+.second-buttons:focus {
+  color: var(--hover-color);
+}
+
+/* //Hover and focus */
 
 .menu-link {
   font-weight: 600;
@@ -216,21 +203,6 @@ body {
   font-family: inherit;
 }
 
-.second-buttons {
-  box-sizing: border-box;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-  cursor: pointer;
-  font-family: inherit;
-}
 .main-tittle {
   font-weight: 500;
   font-size: 20px;
