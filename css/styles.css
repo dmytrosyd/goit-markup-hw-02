@@ -5,19 +5,19 @@
   --hover-color: #404bbf;
 }
 
-/* RESET */
+/* ===========================================RESET */
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
-/* //RESET */
+/* =========================================//RESET */
 body {
   font-family: "Roboto", sans-serif;
   color: var(--first-color);
 }
-/* LOGO */
+/* =========================================LOGO */
 .first-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -31,9 +31,9 @@ body {
   color: var(--first-color);
 }
 
-/* //LOGO */
+/* //===========================================LOGO */
 
-/* HEADER */
+/* ===================================================HEADER */
 
 .header-contacts .header-contacts-link {
   font-size: 16px;
@@ -45,7 +45,7 @@ body {
 address {
   font-style: normal;
 }
-/* Hover and focus */
+==========================================================/* Hover and focus */
 .header-contacts .header-contacts-link:hover,
 .header-contacts .header-contacts-link:focus {
   color: var(--hover-color);
@@ -72,10 +72,10 @@ address {
   background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-/* //Hover and focus */
+/* //===========================================================Hover and focus */
 
 .menu-link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -106,7 +106,7 @@ address {
 }
 /* прихований заголовок */
 
-/* HERO */
+/*============================================================= HERO */
 
 .hero {
   background-color: var(--first-color);
@@ -121,7 +121,7 @@ address {
   color: #ffffff;
 }
 .hero-button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -132,6 +132,7 @@ address {
   border-radius: 4px;
   cursor: pointer;
 }
+
 /* features-section-1 */
 .features-title {
   font-weight: 500;
@@ -166,13 +167,13 @@ address {
 .people-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-color);
 }
 .people-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
@@ -200,7 +201,7 @@ address {
 
 /* BUTTONS */
 .main-button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
